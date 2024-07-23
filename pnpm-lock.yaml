@@ -49,9 +49,6 @@ importers:
       n8n:
         specifier: workspace:*
         version: link:packages/cli
-      playwright:
-        specifier: ^1.45.3
-        version: 1.45.3
     devDependencies:
       '@n8n_io/eslint-config':
         specifier: workspace:*
@@ -104,6 +101,9 @@ importers:
       p-limit:
         specifier: ^3.1.0
         version: 3.1.0
+      playwright:
+        specifier: ^1.45.3
+        version: 1.45.3
       rimraf:
         specifier: ^5.0.1
         version: 5.0.1
@@ -15700,7 +15700,6 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
-    dev: false
     optional: true
 
   /fsevents@2.3.3:
@@ -21468,7 +21467,6 @@ packages:
     resolution: {integrity: sha512-+ym0jNbcjikaOwwSZycFbwkWgfruWvYlJfThKYAlImbxUgdWFO2oW70ojPm4OpE4t6TAo2FY/smM+hpVTtkhDA==}
     engines: {node: '>=18'}
     hasBin: true
-    dev: false
 
   /playwright@1.45.3:
     resolution: {integrity: sha512-QhVaS+lpluxCaioejDZ95l4Y4jSFCsBvl2UZkpeXlzxmqS+aABr5c82YmfMHrL6x27nvrvykJAFpkzT2eWdJww==}
@@ -21478,7 +21476,6 @@ packages:
       playwright-core: 1.45.3
     optionalDependencies:
       fsevents: 2.3.2
-    dev: false
 
   /plimit-lit@1.4.1:
     resolution: {integrity: sha512-bK14ePAod0XWhXwjT6XvYfjcQ9PbCUkZXnDCAKRMZTJCaDIV9VFya1S/I+3WSbpdR8uBhCDh8TS4lQ/JQvhNFA==}
