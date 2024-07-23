@@ -59,6 +59,7 @@
     "nock": "^13.3.2",
     "nodemon": "^3.0.1",
     "p-limit": "^3.1.0",
+    "playwright": "^1.45.3",
     "rimraf": "^5.0.1",
     "run-script-os": "^1.0.7",
     "start-server-and-test": "^2.0.3",
